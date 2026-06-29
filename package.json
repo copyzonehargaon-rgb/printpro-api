@@ -1,12 +1,1 @@
-{
-  "name": "printpro-render-api",
-  "version": "4.0.0",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1"
-  },
-  "engines": { "node": ">=18" }
-}
+{"scripts":{"start":"node server.js"},"dependencies":{"express":"^4.18.2","multer":"^1.4.5-lts.1","cors":"^2.8.5"},"engines":{"node":">=18"}}
