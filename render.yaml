@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: printpro-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PUBLIC_BASE_URL
+        value: https://YOUR-APP.onrender.com
